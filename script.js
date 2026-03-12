@@ -20,7 +20,7 @@ function applyTheme(theme) {
   }
 
   if (themeColorMeta) {
-    themeColorMeta.setAttribute('content', theme === 'dark' ? '#0d2f27' : '#4f6770');
+    themeColorMeta.setAttribute('content', theme === 'dark' ? '#000000' : '#4f6770');
   }
 }
 
@@ -33,10 +33,9 @@ if (themeToggle) {
     storedTheme = null;
   }
 
-  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
   const initialTheme = storedTheme === 'dark' || storedTheme === 'light'
     ? storedTheme
-    : (prefersDark ? 'dark' : 'light');
+    : 'dark';
 
   applyTheme(initialTheme);
 
