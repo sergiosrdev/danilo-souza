@@ -334,6 +334,18 @@ img {
   padding: 2rem;
 }
 
+.long-copy {
+  max-width: 960px;
+}
+
+.long-copy p {
+  margin: 0;
+}
+
+.long-copy p + p {
+  margin-top: 1rem;
+}
+
 .info-card ul {
   list-style: none;
   padding: 0;
