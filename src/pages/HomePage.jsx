@@ -47,7 +47,7 @@ export default function HomePage() {
           Site institucional
         </p>
         <h1 className="max-w-4xl text-4xl font-bold leading-tight text-white md:text-5xl">
-          Danilo Souza, psicologo clinico em Belem do Para.
+          Danilo Souza, psicologo clinico atendimento online.
         </h1>
         <p className="mt-5 max-w-3xl text-lg text-slate-300">
           Atendimento com metodo, acolhimento e responsabilidade tecnica para promover estabilidade emocional, autonomia
