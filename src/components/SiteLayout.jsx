@@ -1,13 +1,13 @@
 import { NavLink } from "react-router-dom";
 
 const menu = [
-  { label: "Inicio", to: "/" },
+  { label: "Início", to: "/" },
   { label: "Perfil Profissional", to: "/perfil-profissional" },
   { label: "Especialidades", to: "/especialidades" },
   { label: "Abordagem", to: "/abordagem" },
   { label: "Artigos", to: "/artigos" },
   { label: "FAQ", to: "/faq" },
-  { label: "Enderecos", to: "/enderecos" },
+  { label: "Endereços", to: "/enderecos" },
   { label: "Contato", to: "/contato" }
 ];
 
@@ -34,7 +34,7 @@ export default function SiteLayout({ children }) {
             />
             <div>
               <p className="text-sm text-slate-300">Danilo Souza</p>
-              <p className="text-base font-bold">Psicologo Clinico</p>
+              <p className="text-base font-bold">Psicólogo Clínico</p>
             </div>
           </NavLink>
           <nav className="flex flex-wrap gap-2">
@@ -51,8 +51,8 @@ export default function SiteLayout({ children }) {
 
       <footer className="border-t border-slate-800 py-8">
         <div className="mx-auto flex w-full max-w-6xl flex-col gap-2 px-4 text-sm text-slate-400 md:flex-row md:items-center md:justify-between">
-          <p>Danilo Souza | Psicologo Clinico | CRP-10/11505</p>
-          <p>Atendimento online e presencial em Belem do Para.</p>
+          <p>Danilo Souza | Psicólogo Clínico | CRP-10/11505</p>
+          <p>Atendimento on-line para todo o Brasil e presencial em Belém.</p>
         </div>
       </footer>
     </div>

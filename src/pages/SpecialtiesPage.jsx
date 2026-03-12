@@ -2,24 +2,24 @@ import { Link } from "react-router-dom";
 
 const specialties = [
   {
-    title: "Tratamento para dependencia quimica",
-    text: "Acompanhamento psicologico para identificar gatilhos, fortalecer motivacao de mudanca e construir prevencao de recaidas.",
-    focus: ["Mapeamento de contextos de risco", "Estruturacao de rotina de protecao", "Apoio ao processo de reorganizacao pessoal"]
+    title: "Tratamento para dependência química",
+    text: "Acompanhamento psicológico para identificar gatilhos, fortalecer motivação de mudança e construir prevenção de recaídas.",
+    focus: ["Mapeamento de contextos de risco", "Estruturação de rotina de proteção", "Apoio ao processo de reorganização pessoal"]
   },
   {
     title: "Terapia Cognitivo-Comportamental",
-    text: "Intervencoes praticas para reorganizar pensamentos, emocoes e comportamentos com metas objetivas de progresso.",
-    focus: ["Reestruturacao cognitiva", "Treino de habilidades de enfrentamento", "Monitoramento de resultados por etapa"]
+    text: "Intervenções práticas para reorganizar pensamentos, emoções e comportamentos com metas objetivas de progresso.",
+    focus: ["Reestruturação cognitiva", "Treino de habilidades de enfrentamento", "Monitoramento de resultados por etapa"]
   },
   {
-    title: "Ansiedade e regulacao emocional",
-    text: "Suporte clinico para reduzir sofrimento, ampliar autocontrole e melhorar desempenho pessoal e profissional.",
-    focus: ["Manejo de sintomas de ansiedade", "Fortalecimento de autorregulacao", "Planejamento de rotina emocionalmente sustentavel"]
+    title: "Ansiedade e regulação emocional",
+    text: "Suporte clínico para reduzir sofrimento, ampliar autocontrole e melhorar desempenho pessoal e profissional.",
+    focus: ["Manejo de sintomas de ansiedade", "Fortalecimento de autorregulação", "Planejamento de rotina emocionalmente sustentável"]
   },
   {
     title: "Autoestima e desenvolvimento humano",
-    text: "Processo terapeutico voltado ao fortalecimento da identidade, autonomia e tomada de decisao com clareza.",
-    focus: ["Reconstrucao de autopercepcao", "Trabalho com limites e assertividade", "Definicao de metas de vida realistas"]
+    text: "Processo terapêutico voltado ao fortalecimento da identidade, autonomia e tomada de decisão com clareza.",
+    focus: ["Reconstrução de autopercepção", "Trabalho com limites e assertividade", "Definição de metas de vida realistas"]
   }
 ];
 
@@ -28,10 +28,10 @@ export default function SpecialtiesPage() {
     <section className="space-y-8">
       <header className="space-y-3">
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-300">Especialidades</p>
-        <h1 className="text-4xl font-bold text-white">Areas de atuacao clinica</h1>
+        <h1 className="text-4xl font-bold text-white">Áreas de atuação clínica</h1>
         <p className="max-w-4xl text-slate-300">
-          Cada frente de atendimento possui objetivos terapeuticos claros e estrategias especificas para a demanda
-          apresentada em sessao.
+          Cada frente de atendimento possui objetivos terapêuticos claros e estratégias específicas para a demanda
+          apresentada em sessão.
         </p>
       </header>
 
@@ -52,9 +52,9 @@ export default function SpecialtiesPage() {
       </div>
 
       <div className="rounded-2xl border border-brand-700/30 bg-brand-900/20 p-6">
-        <h2 className="text-2xl font-bold text-white">Precisa de orientacao para escolher a melhor linha?</h2>
+        <h2 className="text-2xl font-bold text-white">Precisa de orientação para escolher a melhor linha?</h2>
         <p className="mt-3 max-w-3xl text-slate-300">
-          A definicao da estrategia terapeutica e feita apos avaliacao inicial da demanda, contexto de vida e objetivos.
+          A definição da estratégia terapêutica é feita após avaliação inicial da demanda, contexto de vida e objetivos.
         </p>
         <Link
           to="/contato"

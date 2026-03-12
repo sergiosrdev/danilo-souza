@@ -1,27 +1,27 @@
 import { Link } from "react-router-dom";
 
 const education = [
-  "Pos em Transtorno Bordeline e Terapia Cognitivo Comportamental",
-  "Pos em Terapia Cognitivo Comportamental de Alta Performance"
+  "Pós em Transtorno Borderline e Terapia Cognitivo-Comportamental",
+  "Pós em Terapia Cognitivo-Comportamental de Alta Performance"
 ];
 
 const principles = [
-  "Sigilo, etica e responsabilidade em toda conducao clinica",
-  "Plano de tratamento com objetivos claros e revisao continua",
-  "Intervencoes praticas para ganhos reais no dia a dia"
+  "Sigilo, ética e responsabilidade em toda condução clínica",
+  "Plano de tratamento com objetivos claros e revisão contínua",
+  "Intervenções práticas para ganhos reais no dia a dia"
 ];
 
 export default function ProfilePage() {
-  const profileImageSrc = `${import.meta.env.BASE_URL}assets/Dr.Danilo-Souza.jpg`;
+  const profileImageSrc = `${import.meta.env.BASE_URL}assets/danilo-souza.jpg`;
 
   return (
     <section className="space-y-8">
       <header className="space-y-3">
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-300">Perfil Profissional</p>
-        <h1 className="text-4xl font-bold text-white">Dr. Danilo Souza</h1>
+        <h1 className="text-4xl font-bold text-white">Danilo Souza</h1>
         <p className="max-w-4xl text-slate-300">
-          Psicologo clinico com atuacao voltada para acolhimento tecnico, avaliacao responsavel da demanda e construcao
-          de progresso terapeutico sustentavel.
+          Psicólogo clínico com atuação voltada para acolhimento técnico, avaliação responsável da demanda e construção
+          de progresso terapêutico sustentável.
         </p>
       </header>
 
@@ -29,13 +29,13 @@ export default function ProfilePage() {
         <article className="rounded-2xl border border-slate-800 bg-slate-900 p-4">
           <img
             src={profileImageSrc}
-            alt="Dr. Danilo Souza"
+            alt="Danilo Souza"
             className="h-full w-full rounded-xl object-cover"
           />
         </article>
 
         <article className="rounded-2xl border border-slate-800 bg-slate-900 p-6">
-          <h2 className="text-2xl font-bold text-white">Formacao complementar</h2>
+          <h2 className="text-2xl font-bold text-white">Formação complementar</h2>
           <ul className="mt-5 space-y-3 text-slate-200">
             {education.map((item) => (
               <li key={item} className="rounded-lg border border-slate-700 bg-slate-800/60 p-3">
@@ -60,7 +60,7 @@ export default function ProfilePage() {
             </div>
             <div className="rounded-xl border border-slate-700 p-4">
               <p className="text-xs uppercase tracking-wide text-slate-400">Modalidade</p>
-              <p className="mt-2 text-lg font-semibold text-white">Online e presencial</p>
+              <p className="mt-2 text-lg font-semibold text-white">On-line e presencial</p>
             </div>
           </div>
 

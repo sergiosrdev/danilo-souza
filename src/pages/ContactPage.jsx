@@ -1,7 +1,7 @@
 const steps = [
   "Envie mensagem com nome e objetivo do atendimento",
-  "Receba opcoes de horario e formato (online ou presencial)",
-  "Confirme sessao e orientacoes iniciais"
+  "Receba opções de horário e formato (on-line ou presencial)",
+  "Confirme sessão e orientações iniciais"
 ];
 
 export default function ContactPage() {
@@ -9,9 +9,9 @@ export default function ContactPage() {
     <section className="space-y-8">
       <header className="space-y-3">
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-300">Contato</p>
-        <h1 className="text-4xl font-bold text-white">Agendamento e informacoes</h1>
+        <h1 className="text-4xl font-bold text-white">Agendamento e informações</h1>
         <p className="max-w-3xl text-slate-300">
-          Para iniciar acompanhamento psicologico, utilize os canais oficiais abaixo.
+          Para iniciar acompanhamento psicológico, utilize os canais oficiais abaixo.
         </p>
       </header>
 
@@ -20,7 +20,7 @@ export default function ContactPage() {
           <p className="text-sm font-bold uppercase tracking-wide">WhatsApp</p>
           <p className="mt-2 text-3xl font-extrabold">(91) 98486-4748</p>
           <a
-            href="https://wa.me/5591984864748?text=Ola%2C%20gostaria%20de%20agendar%20um%20atendimento."
+            href="https://wa.me/5591984864748?text=Olá%2C%20gostaria%20de%20agendar%20um%20atendimento."
             target="_blank"
             rel="noreferrer"
             className="mt-6 inline-block rounded-xl bg-emerald-100 px-5 py-3 text-sm font-bold text-emerald-900"
@@ -51,7 +51,7 @@ export default function ContactPage() {
               <span className="text-sm text-slate-300">@danilo_souzac_x</span>
             </span>
           </a>
-          <p className="text-sm text-slate-400">Atendimento online e presencial em Belem do Para.</p>
+          <p className="text-sm text-slate-400">Atendimento on-line para todo o Brasil e presencial em Belém.</p>
         </article>
       </div>
 

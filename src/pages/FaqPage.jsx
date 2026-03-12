@@ -1,23 +1,23 @@
 const faq = [
   {
-    question: "Como agendar a primeira sessao?",
-    answer: "O agendamento pode ser feito por WhatsApp, email ou Instagram. Voce recebe as opcoes de horario e confirma o melhor formato."
+    question: "Como agendar a primeira sessão?",
+    answer: "O agendamento pode ser feito por WhatsApp, e-mail ou Instagram. Você recebe as opções de horário e confirma o melhor formato."
   },
   {
-    question: "O atendimento pode ser online?",
-    answer: "Sim. O atendimento e realizado online e presencialmente, de acordo com a necessidade e disponibilidade do paciente."
+    question: "O atendimento pode ser on-line?",
+    answer: "Sim. O atendimento é realizado on-line e presencialmente, de acordo com a necessidade e disponibilidade do paciente."
   },
   {
-    question: "Qual a frequencia das sessoes?",
-    answer: "A frequencia e definida na avaliacao inicial, considerando demanda clinica, objetivos e etapa do tratamento."
+    question: "Qual a frequência das sessões?",
+    answer: "A frequência é definida na avaliação inicial, considerando demanda clínica, objetivos e etapa do tratamento."
   },
   {
     question: "Existe sigilo no atendimento?",
-    answer: "Sim. O sigilo profissional e principio etico fundamental e orienta toda a conducao do processo terapeutico."
+    answer: "Sim. O sigilo profissional é princípio ético fundamental e orienta toda a condução do processo terapêutico."
   },
   {
-    question: "Atende apenas dependencia quimica?",
-    answer: "Nao. O atendimento inclui tambem ansiedade, regulacao emocional, autoestima e outras demandas clinicas."
+    question: "Atende apenas dependência química?",
+    answer: "Não. O atendimento inclui também ansiedade, regulação emocional, autoestima e outras demandas clínicas."
   }
 ];
 
@@ -28,7 +28,7 @@ export default function FaqPage() {
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-300">FAQ</p>
         <h1 className="text-4xl font-bold text-white">Perguntas frequentes</h1>
         <p className="max-w-4xl text-slate-300">
-          Respostas objetivas para duvidas comuns sobre inicio do atendimento, formato das sessoes e processo clinico.
+          Respostas objetivas para dúvidas comuns sobre início do atendimento, formato das sessões e processo clínico.
         </p>
       </header>
 

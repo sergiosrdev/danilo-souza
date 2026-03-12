@@ -1,8 +1,8 @@
 const articles = [
   {
-    title: "Quando procurar apoio psicologico?",
+    title: "Quando procurar apoio psicológico?",
     summary:
-      "Sofrimento persistente, ansiedade intensa, luto e dificuldade de relacionamento sao sinais de que o acompanhamento pode ser necessario.",
+      "Sofrimento persistente, ansiedade intensa, luto e dificuldade de relacionamento são sinais de que o acompanhamento pode ser necessário.",
     points: [
       "Perda de interesse em atividades habituais",
       "Irritabilidade frequente e sobrecarga emocional",
@@ -10,23 +10,23 @@ const articles = [
     ]
   },
   {
-    title: "Como a psicoterapia ajuda na dependencia quimica",
+    title: "Como a psicoterapia ajuda na dependência química",
     summary:
-      "O processo terapeutico apoia a identificacao de gatilhos e o fortalecimento de habilidades para sustentar abstinencia e estabilidade.",
+      "O processo terapêutico apoia a identificação de gatilhos e o fortalecimento de habilidades para sustentar abstinência e estabilidade.",
     points: [
-      "Compreensao de padroes de uso",
-      "Treino de enfrentamento para recaidas",
-      "Reconstrucao de vinculos e projeto de vida"
+      "Compreensão de padrões de uso",
+      "Treino de enfrentamento para recaídas",
+      "Reconstrução de vínculos e projeto de vida"
     ]
   },
   {
     title: "TCC e rotina emocional",
     summary:
-      "A terapia cognitivo-comportamental oferece ferramentas praticas para mudanca de comportamento e reducao de sofrimento.",
+      "A terapia cognitivo-comportamental oferece ferramentas práticas para mudança de comportamento e redução de sofrimento.",
     points: [
-      "Ajuste de pensamentos automaticos",
-      "Planejamento de acoes objetivas",
-      "Revisao frequente de progresso em sessao"
+      "Ajuste de pensamentos automáticos",
+      "Planejamento de ações objetivas",
+      "Revisão frequente de progresso em sessão"
     ]
   }
 ];
@@ -36,9 +36,9 @@ export default function ArticlesPage() {
     <section className="space-y-8">
       <header className="space-y-3">
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-300">Artigos</p>
-        <h1 className="text-4xl font-bold text-white">Conteudo de orientacao para pacientes e familiares</h1>
+        <h1 className="text-4xl font-bold text-white">Conteúdo de orientação para pacientes e familiares</h1>
         <p className="max-w-4xl text-slate-300">
-          Conteudos introdutorios para apoiar tomada de decisao sobre inicio de psicoterapia, entendimento de sintomas e
+          Conteúdos introdutórios para apoiar tomada de decisão sobre início de psicoterapia, entendimento de sintomas e
           continuidade de cuidado.
         </p>
       </header>

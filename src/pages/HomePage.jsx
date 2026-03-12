@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 
 const highlights = [
-  "Atendimento psicologico online e presencial",
-  "Foco clinico em dependencia quimica e TCC",
-  "Escuta qualificada com plano terapeutico estruturado"
+  "Atendimento psicológico on-line para todo o Brasil",
+  "Foco clínico em dependência química e TCC",
+  "Atendimento presencial em Belém com plano terapêutico estruturado"
 ];
 
 const pages = [
   {
     title: "Perfil Profissional",
-    text: "Conheca a formacao complementar, experiencia clinica e posicionamento tecnico do Dr. Danilo Souza.",
+    text: "Conheça a formação complementar, experiência clínica e posicionamento técnico de Danilo Souza.",
     to: "/perfil-profissional"
   },
   {
@@ -19,17 +19,17 @@ const pages = [
   },
   {
     title: "Abordagem",
-    text: "Entenda o fluxo de atendimento, etapas do acompanhamento e objetivos terapeuticos.",
+    text: "Entenda o fluxo de atendimento, etapas do acompanhamento e objetivos terapêuticos.",
     to: "/abordagem"
   },
   {
     title: "Artigos",
-    text: "Conteudos educativos para orientar pacientes e familiares com base em pratica clinica.",
+    text: "Conteúdos educativos para orientar pacientes e familiares com base em prática clínica.",
     to: "/artigos"
   },
   {
     title: "FAQ",
-    text: "Respostas rapidas para duvidas frequentes sobre sessao, formato e inicio do atendimento.",
+    text: "Respostas rápidas para dúvidas frequentes sobre sessão, formato e início do atendimento.",
     to: "/faq"
   },
   {
@@ -47,10 +47,10 @@ export default function HomePage() {
           Site institucional
         </p>
         <h1 className="max-w-4xl text-4xl font-bold leading-tight text-white md:text-5xl">
-          Danilo Souza, psicologo clinico atendimento online.
+          Danilo Souza, psicólogo clínico com atendimento on-line para todo o Brasil.
         </h1>
         <p className="mt-5 max-w-3xl text-lg text-slate-300">
-          Atendimento com metodo, acolhimento e responsabilidade tecnica para promover estabilidade emocional, autonomia
+          Atendimento com método, acolhimento e responsabilidade técnica para promover estabilidade emocional, autonomia
           e desenvolvimento pessoal.
         </p>
 
@@ -84,7 +84,7 @@ export default function HomePage() {
             <h2 className="text-xl font-bold text-white">{page.title}</h2>
             <p className="mt-3 text-slate-300">{page.text}</p>
             <Link to={page.to} className="mt-5 inline-block text-sm font-semibold text-brand-300 hover:text-brand-200">
-              Acessar pagina
+              Acessar página
             </Link>
           </article>
         ))}
